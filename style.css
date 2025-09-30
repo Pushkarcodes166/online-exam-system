@@ -79,3 +79,28 @@ button:hover {
 }
 
 /* --- UPDATED STYLES END HERE --- */
+/* ... (all your existing CSS from before) ... */
+
+/* Add a hover effect for the link */
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+
+/* --- NEW STYLE FOR THE SIGN UP LINK --- */
+.signup-link {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+.signup-link p {
+    margin: 0;
+    color: #555;
+}
+
+.signup-link a {
+    font-weight: bold;
+    display: inline; /* Overrides the block display from the general 'a' rule */
+}
