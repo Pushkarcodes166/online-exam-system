@@ -40,8 +40,10 @@ input[type="password"] {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    box-sizing: border-box;
 }
+
+/* --- UPDATED STYLES START HERE --- */
 
 button {
     width: 100%;
@@ -53,6 +55,13 @@ button {
     cursor: pointer;
     font-size: 1rem;
     font-weight: bold;
+    /* Add a smooth transition effect */
+    transition: background-color 0.3s ease;
+}
+
+/* Add a hover effect for the button */
+button:hover {
+    background-color: #0056b3;
 }
 
 .login-container a {
@@ -60,4 +69,13 @@ button {
     text-decoration: none;
     display: block;
     margin-top: 1rem;
+    /* Add a smooth transition for the underline */
+    transition: text-decoration 0.3s ease;
 }
+
+/* Add a hover effect for the link */
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+/* --- UPDATED STYLES END HERE --- */
